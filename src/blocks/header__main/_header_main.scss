@@ -95,13 +95,18 @@
     .header_main__submit{
         background-color: white;
         border-radius: 28px;
-        border: none;
+        border: 1px solid #fff;
         color: #3695ff;
         font-size: 16px;
         font-weight: 700;
         text-transform: uppercase;
         font-family: Lato;
         padding: 15px 50px;
+
+        &:hover{
+            background-color: #3695ff;
+            color: #fff;
+            border: 1px solid #fff;
+        }
     }
-    
 }

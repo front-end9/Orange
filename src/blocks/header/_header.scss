@@ -24,6 +24,15 @@
         font-weight: 700;
         line-height: 16px;
         padding: 10px 30px;
-        border: none;
+        border: 1px solid #fff;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #194277;
+            color: #fff;
+            border: 1px solid #fff;
+        }
     }
+
+
 }

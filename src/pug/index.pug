@@ -4,6 +4,7 @@ include ../blocks/footer/_footer.pug
 include ../blocks/work/_work.pug
 include ../blocks/header/_header.pug
 include ../blocks/header__main/_header_main.pug
+include ../blocks/latest/_latest.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -20,44 +21,10 @@ html(lang="en")
         +header_main
         +about
         +expert
+        +latest
         +footer
         +work
-        .orange__latest
-            .container
-                .orange__headline
-                        .row
-                            .col-12
-                                .orange__title
-                                    h1.orange-title Latest Works
-                .orange__set.set    
-                    .set__first
-                        .row
-                            .col-4
-                                .set__link
-                                    a(src="javascript:void(0)").set-link.first-link
-                                        img(src="../images/work_1.png").set__image 
-                            .col-4
-                                .set__link
-                                    a(src="javascript:void(0)").set-link.first-link
-                                        img(src="../images/work_2.png").set__image 
-                            .col-4
-                                .set__link
-                                    a(src="javascript:void(0)").set-link.first-link
-                                        img(src="../images/work_3.png").set__image 
-                    .set__second
-                        .row
-                            .col-4
-                                .set__link
-                                    a(src="javascript:void(0)").set-link.second-link
-                                        img(src="../images/work_4.png").set__image 
-                            .col-4
-                                .set__link
-                                    a(src="javascript:void(0)").set-link.second-link
-                                        img(src="../images/work_5.png").set__image 
-                            .col-4
-                                .set__link
-                                    a(src="javascript:void(0)").set-link.second-link
-                                        img(src="../images/work_6.png").set__image  
+        
         script(src="https://kit.fontawesome.com/eed4fbf255.js" crossorigin="anonymous")
         script(src="https://code.jquery.com/jquery-3.4.1.min.js")
         script(src="../node_modules/remodal/dist/remodal.js")
