@@ -1,4 +1,5 @@
-include ../blocks/nav/_nav.pug
+include ../blocks/header/_header.pug
+include ../blocks/header__main/_header_main.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -11,6 +12,9 @@ html(lang="en")
         link(rel="stylesheet", href="../node_modules/remodal/dist/remodal-default-theme.css")
         link(rel="stylesheet", href="./css/style.css")
     body
-        
+        +header
+        +header_main
+        script(src="https://kit.fontawesome.com/eed4fbf255.js" crossorigin="anonymous")
         script(src="https://code.jquery.com/jquery-3.4.1.min.js")
         script(src="../node_modules/remodal/dist/remodal.js")
+        
