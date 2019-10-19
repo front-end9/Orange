@@ -1,0 +1,50 @@
+.expert {
+    height: 1150px;
+    background-color: #f1f8ff;
+    text-align: center;
+
+    &__title {
+        color: #3677fd;
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 1;
+        text-align: center;
+        padding-top: 102px;
+    }
+
+    &__border {
+        width: 142px;
+        height: 142px;
+        border: 1px solid #b7c0c9;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    &__name {
+        color: #3677fd;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        padding-top: 65px;
+        padding-bottom: 32px;
+    }
+
+    &__subname {
+        color: #5a5a5a;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 35px;
+
+    }
+
+    &__part {
+        margin-top: 102px;
+    }
+
+    &__logo {
+        margin: 0 auto;
+    }
+}
