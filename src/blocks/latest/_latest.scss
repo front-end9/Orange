@@ -31,7 +31,6 @@
     &-link:hover {
         max-width: 100%;
         background-color: #f4f4f4;
-        border: 1px solid #f4f4f4;
         border-radius: 10px;
         cursor: pointer;
     }
@@ -41,16 +40,17 @@
     }
 }
 
-
 .first-link {
     & {
+
         display: flex;
         justify-content: center;
         align-items: flex-end;
     }
 
     &-link:hover {
-        height: 270px;
+        padding-bottom: -2px;
+
     }
 
     &-link:hover .set__second {
@@ -63,9 +63,5 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    &:hover {
-        height: 269px;
     }
 }
