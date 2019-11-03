@@ -4,19 +4,19 @@
     width: 100%;
     height: 72px;
 
-    .col-12{
+    .col-12 {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-top: 20px;
     }
 
-    .header__top__text{
+    .top__text {
         display: inline-block;
         padding-right: 60px;
     }
 
-    .header__top__btn{
+    .top__btn {
         border-radius: 50px;
         color: #194277;
         font-family: Lato;
@@ -27,7 +27,7 @@
         border: 1px solid #fff;
         cursor: pointer;
 
-        &:hover{
+        &:hover {
             background-color: #194277;
             color: #fff;
             border: 1px solid #fff;
