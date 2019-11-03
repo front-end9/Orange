@@ -1,9 +1,9 @@
 @import '../../node_modules/reset.scss/reset.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
 
-// FONTS
+
 @import 'fonts';
 
-@import 'base';
+@import '_base.scss';
 
 @import 'blocks';
