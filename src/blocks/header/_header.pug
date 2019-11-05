@@ -9,11 +9,24 @@ mixin header
                         .headline__btn
                             a.headline-btn(href="javascript:void(0)") Accept
             .row    
+                .col-12.d-xl-flex.justify-content-xl-end
+                    .header__burger.burger
+                        input#checkbox(type="checkbox")
+                        label.burger__button(for="checkbox")
+                            span
+                        ul.burger-nav__list
+                            li.burger-nav__item
+                                a.burger-nav__link(href="#") About Me
+                            li.burger-nav__item
+                                a.burger-nav__link(href="#") Services
+                            li.burger-nav__item
+                                a.burger-nav__link(href="#") My Works
+                            li.burger-nav__item
+                                a.burger-nav__link(href="#") Clients
+                            hr.burger__line
+                       
                 .col-12
-                    .header__burger
-                        <i class="fas fa-bars"></i>
-                .col-12
-                    .header_main__circle
+                    .header__image
                         .circle
             .row
                 .col-12
